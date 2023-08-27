@@ -264,6 +264,12 @@ body {
     padding-left: 5vw;
     margin-bottom: -3vh;
 }
+/* end copyright */
+
+.workTogetherBtn:hover button, .valuesBtn:hover button, .brandingBtn:hover button, .webDesignBtn:hover button{
+    background-color: #ab641d;
+    color: white;
+}
 
 @media (max-width: 760px) {
     .webDesignImg img, .brandingImg img, .valuesImg img {
