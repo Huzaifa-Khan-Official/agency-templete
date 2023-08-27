@@ -1,0 +1,312 @@
+body {
+    overflow-x: hidden;
+}
+
+/* navbar */
+.nav-heading {
+    width: 52vw !important;
+}
+
+/* end navbar */
+
+/* cover */
+.cover {
+    position: relative;
+}
+
+.cover-pic img {
+    height: 90vh;
+    width: 100vw;
+}
+
+.cover-content {
+    position: absolute;
+    top: 20vh;
+    left: 20vw;
+    width: 70vw;
+}
+
+.cover-heading h1 {
+    font-size: 70px !important;
+    font-weight: bold;
+}
+
+.cover-para {
+    margin-top: 5vh;
+    width: 63vw;
+}
+
+.cover-para p {
+    text-align: center;
+    font-size: 17px;
+}
+
+.cover-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -4vw;
+}
+
+.cover-links div {
+    margin-left: 1vw;
+}
+
+.cover-links a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.learn-more {
+    width: 13vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 6vh;
+    background-color: #fcaf3b;
+}
+
+.learn-more:hover {
+    background-color: #ab641d;
+}
+
+.learn-more:hover a {
+    color: white;
+}
+
+.hire-us {
+    width: 13vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 6vh;
+    border: 2px solid #14171c;
+}
+
+.hire-us:hover {
+    background-color: #14171c;
+}
+
+.hire-us:hover a {
+    color: white;
+}
+
+/* end cover */
+
+
+/* card */
+.cards {
+    margin-top: 13vh !important;
+    margin-bottom: 15vh;
+}
+.cardImg {
+    display: flex;
+    justify-content: center;
+}
+/* end card */
+
+/* webDesign */
+.webDesign {
+    background-color: #ededed;
+    margin-bottom: 5vh;
+}
+
+.webDesignImg img {
+    width: 50vw;
+}
+
+.webDesignContent {
+    margin-left: 6vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.webDesignCol2 {
+    display: flex;
+    align-items: center;
+}
+
+.webDesignHeading h2 {
+    font-size: 46px;
+}
+
+.webDesignBtn button {
+    background-color: #fcaf3b;
+    border: none;
+    width: 15vw;
+    height: 6vh;
+    font-size: 16px;
+    font-weight: 700;
+}
+/* end webDesign */
+
+/* branding */
+.branding {
+    margin-bottom: 4vh;
+}
+.branding .row {
+    padding-right: 6vw;
+}
+.brandingImg img {
+    width: 50vw;
+}
+
+.brandingContent {
+    margin-left: 3vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.brandingCol2 {
+    display: flex;
+    align-items: center;
+}
+
+.brandingHeading h2 {
+    font-size: 46px;
+}
+
+.brandingBtn button {
+    background-color: #fcaf3b;
+    border: none;
+    width: 15vw;
+    height: 6vh;
+    font-size: 16px;
+    font-weight: 700;
+}
+/* end branding */
+
+/* values */
+.values {
+    background-color: #14171c;
+    margin-bottom: 5vh;
+    color: white;
+}
+
+.valuesImg img {
+    width: 50vw;
+}
+
+.valuesContent {
+    margin-left: 6vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.valuesCol2 {
+    display: flex;
+    align-items: center;
+}
+
+.valuesHeading h2 {
+    font-size: 46px;
+}
+
+.valuesBtn button {
+    background-color: #fcaf3b;
+    border: none;
+    width: 15vw;
+    height: 6vh;
+    font-size: 16px;
+    font-weight: 700;
+}
+/* end values */
+
+/* featuredWork */
+.featuredWork img {
+    width: 45vw;
+}
+/* end featuredWork */
+
+/* reviews */
+.review {
+    padding-top: 10vh;
+    background-color: #ededed;
+}
+
+.review img{
+    border-radius: 50%;
+}
+/* end reviews */
+
+/* workTogether */
+.workTogether {
+    padding: 20vh 5vw 20vh 5vw;
+    background-color: #14171c;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.workTogetherHeading h2 {
+    font-size: 46px;
+    font-weight: 600;
+}
+
+.workTogetherBtn button {
+    background-color: #fcaf3b;
+    border: none;
+    width: 14vw;
+    height: 6vh;
+    font-size: 16px;
+    font-weight: 700;
+}
+/* end workTogether */
+
+/* copyright */
+.copyright {
+    background-color: black;
+    color: white;
+    padding-left: 5vw;
+    margin-bottom: -3vh;
+}
+
+@media (max-width: 760px) {
+    .webDesignImg img, .brandingImg img, .valuesImg img {
+        width: 90vw;
+    }
+    .workTogetherHeading h2 {
+        font-size: 30px;
+    }
+}
+
+@media (max-width:990px) {
+    .cover-heading h1 {
+        font-size: 34px !important;
+    }
+    .cover-para {
+        width: 70vw;
+    }
+    .learn-more {
+        width: 28vw;
+    }
+    .hire-us {
+        width: 28vw;
+    }  
+    .featuredWork img {
+        width: 90vw;
+    }
+    .webDesignContent,  .valuesContent{
+        margin-left: 1vw;
+    }
+    .valuesBtn button, .brandingBtn button, .webDesignBtn button, .workTogetherBtn button {
+        width: 25vw;
+    }
+    .brandingImg {
+        padding-left: 4vw;
+    }
+    .featuredWorkImg1, .featuredWorkImg2 {
+        padding-top: 5vh;
+    }
+    .featuredWorkImg1 img, .featuredWorkImg2 img {
+        padding-right: 5vw;
+    }
+    .review .cardPara {
+        display: flex;
+        justify-content: center;
+    }
+}
