@@ -1,0 +1,239 @@
+body {
+    overflow-x: hidden !important;
+    width: 100vw;
+}
+
+.cover-heading {
+    margin-top: 8vh;
+    margin-bottom: 10vh;
+}
+
+/* navbar */
+.nav-heading {
+    width: 52vw !important;
+}
+
+/* end navbar */
+
+/* cover-heading */
+.cover-heading h1 {
+    font-size: 70px;
+    font-weight: bold;
+}
+
+/* end cover-heading */
+
+/* our-story */
+.our-story {
+    background-color: #ededed;
+}
+
+.our-story img {
+    width: 50vw;
+}
+
+.our-storyContent {
+    margin-left: 6vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.our-storyCol2 {
+    display: flex;
+    align-items: center;
+}
+
+.our-storyHeading h2 {
+    font-size: 46px;
+}
+
+/* end our-story */
+
+/* values */
+.values {
+    background-color: #14171c;
+    color: white;
+    margin-bottom: 4vh;
+    padding-right: 6vw;
+}
+
+.values .row {
+    padding-right: 6vw;
+}
+
+.valuesImg img {
+    width: 50vw;
+}
+
+.valuesContent {
+    margin-left: 3vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.valuesCol2 {
+    display: flex;
+    align-items: center;
+}
+
+.valuesHeading h2 {
+    font-size: 46px;
+}
+
+.valuesBtn button {
+    background-color: #fcaf3b;
+    border: none;
+    width: 15vw;
+    height: 6vh;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+/* end values */
+
+/* card */
+.cards {
+    margin-top: 13vh !important;
+    margin-bottom: 15vh;
+}
+
+.cardImg {
+    display: flex;
+    justify-content: center;
+}
+
+/* end card */
+
+/* customer pics */
+.pics {
+    background-color: #ededed;
+    padding: 15vh 4vw;
+}
+
+.pics .row img {
+    width: 28vw;
+}
+
+.contactLinks {
+    display: flex;
+    justify-content: center;
+    font-size: larger;
+}
+
+.facebookLink,
+.twitterLink,
+.linkedinLink {
+    border-radius: 100%;
+    padding: 0.8vw;
+}
+
+.facebookLink {
+    background-color: rgb(4, 108, 255);
+}
+
+.twitterLink {
+    background-color: #14171c;
+}
+
+.linkedinLink {
+    background-color: rgb(0, 106, 255);
+}
+
+/* end customer pics */
+
+/* copyright */
+.copyright {
+    background-color: black;
+    color: white;
+    padding-left: 5vw;
+    margin-bottom: -3vh;
+}
+
+/* end copyright */
+
+@media (max-width: 330px) {
+    h2 {
+        font-size: 26px !important;
+    }
+    .cover-heading h1 {
+        font-size: 26px !important;
+    }
+}
+
+@media (max-width: 390px) {
+    .valuesBtn button {
+        width: 50vw !important;
+    }
+    .valuesContent,
+    .valuesImg {
+        margin-left: 10vw;
+    }
+    .values {
+        padding-left: 5vw;
+    }
+}
+
+
+@media (max-width: 760px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    .workTogetherHeading h2 {
+        font-size: 30px;
+    }
+}
+
+@media (max-width:990px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    .cover-heading h1 {
+        font-size: 34px;
+    }
+
+    .our-storyContent {
+        margin-left: 0vw;
+    }
+
+    .valuesContent,
+    .valuesImg {
+        margin-left: 6vw;
+    }
+
+    .valuesContent {
+        margin-top: 8vh;
+    }
+
+    .valuesImg img,
+    .our-storyImg img {
+        width: 80vw;
+    }
+
+    .valuesBtn button {
+        width: 25vw;
+    }
+
+    .pics .pic1,
+    .pics .pic2,
+    .pics .pic3 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .pic2,
+    .pic3 {
+        margin-top: 10vh;
+    }
+
+    .pics .row img {
+        width: 70vw;
+    }
+
+    .facebookLink,
+    .twitterLink,
+    .linkedinLink {
+        padding: 2vw;
+    }
+}
