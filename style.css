@@ -1,5 +1,5 @@
 body {
-    overflow-x: hidden;
+    overflow-x: hidden !important;
 }
 
 /* navbar */
@@ -27,7 +27,7 @@ body {
 }
 
 .cover-heading h1 {
-    font-size: 70px !important;
+    font-size: 70px;
     font-weight: bold;
 }
 
@@ -101,10 +101,12 @@ body {
     margin-top: 13vh !important;
     margin-bottom: 15vh;
 }
+
 .cardImg {
     display: flex;
     justify-content: center;
 }
+
 /* end card */
 
 /* webDesign */
@@ -140,15 +142,18 @@ body {
     font-size: 16px;
     font-weight: 700;
 }
+
 /* end webDesign */
 
 /* branding */
 .branding {
     margin-bottom: 4vh;
 }
+
 .branding .row {
     padding-right: 6vw;
 }
+
 .brandingImg img {
     width: 50vw;
 }
@@ -176,6 +181,7 @@ body {
     font-size: 16px;
     font-weight: 700;
 }
+
 /* end branding */
 
 /* values */
@@ -212,12 +218,14 @@ body {
     font-size: 16px;
     font-weight: 700;
 }
+
 /* end values */
 
 /* featuredWork */
 .featuredWork img {
     width: 45vw;
 }
+
 /* end featuredWork */
 
 /* reviews */
@@ -226,9 +234,10 @@ body {
     background-color: #ededed;
 }
 
-.review img{
+.review img {
     border-radius: 50%;
 }
+
 /* end reviews */
 
 /* workTogether */
@@ -255,6 +264,7 @@ body {
     font-size: 16px;
     font-weight: 700;
 }
+
 /* end workTogether */
 
 /* copyright */
@@ -264,53 +274,129 @@ body {
     padding-left: 5vw;
     margin-bottom: -3vh;
 }
+
 /* end copyright */
 
-.workTogetherBtn:hover button, .valuesBtn:hover button, .brandingBtn:hover button, .webDesignBtn:hover button{
+.workTogetherBtn:hover button,
+.valuesBtn:hover button,
+.brandingBtn:hover button,
+.webDesignBtn:hover button {
     background-color: #ab641d;
     color: white;
 }
 
+@media (max-width: 460px) {
+    .valuesBtn button,
+    .brandingBtn button,
+    .webDesignBtn button,
+    .workTogetherBtn button {
+        width: 35vw !important;
+    }
+}
+@media (max-width: 400px) {
+    .cover-links {
+        flex-direction: column;
+    }
+    .hire-us {
+        margin-top: 4vh;
+    }
+    .learn-more, .hire-us {
+        width: 40vw !important;
+    }
+}
+@media (max-width: 330px) {
+    .valuesBtn button,
+    .brandingBtn button,
+    .webDesignBtn button,
+    .workTogetherBtn button {
+        width: 55vw !important;
+    }
+    .cover-heading h1 {
+        font-size: 26px !important;
+    }
+    .cover-content {
+        top: 6px !important;
+    }
+}
+@media (max-width: 210px) {
+    .valuesBtn button,
+    .brandingBtn button,
+    .webDesignBtn button,
+    .workTogetherBtn button {
+        width: 75vw !important;
+    }
+    .learn-more, .hire-us {
+        width: 68vw !important;
+    }
+}
+
 @media (max-width: 760px) {
-    .webDesignImg img, .brandingImg img, .valuesImg img {
+    body {
+        overflow-x: hidden;
+    }
+
+    .webDesignImg img,
+    .brandingImg img,
+    .valuesImg img {
         width: 90vw;
     }
+
     .workTogetherHeading h2 {
         font-size: 30px;
     }
 }
 
 @media (max-width:990px) {
-    .cover-heading h1 {
-        font-size: 34px !important;
+    body {
+        overflow-x: hidden;
     }
+
+    .cover-heading h1 {
+        font-size: 34px;
+    }
+
     .cover-para {
         width: 70vw;
     }
+
     .learn-more {
         width: 28vw;
     }
+
     .hire-us {
         width: 28vw;
-    }  
+    }
+
     .featuredWork img {
         width: 90vw;
     }
-    .webDesignContent,  .valuesContent{
+
+    .webDesignContent,
+    .valuesContent {
         margin-left: 1vw;
     }
-    .valuesBtn button, .brandingBtn button, .webDesignBtn button, .workTogetherBtn button {
+
+    .valuesBtn button,
+    .brandingBtn button,
+    .webDesignBtn button,
+    .workTogetherBtn button {
         width: 25vw;
     }
+
     .brandingImg {
         padding-left: 4vw;
     }
-    .featuredWorkImg1, .featuredWorkImg2 {
+
+    .featuredWorkImg1,
+    .featuredWorkImg2 {
         padding-top: 5vh;
     }
-    .featuredWorkImg1 img, .featuredWorkImg2 img {
+
+    .featuredWorkImg1 img,
+    .featuredWorkImg2 img {
         padding-right: 5vw;
     }
+
     .review .cardPara {
         display: flex;
         justify-content: center;
