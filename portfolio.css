@@ -1,0 +1,203 @@
+body {
+    overflow-x: hidden !important;
+    width: 100vw;
+}
+
+
+/* navbar */
+.nav-heading {
+    width: 52vw !important;
+}
+
+/* end navbar */
+/* cover-heading */
+.cover-heading h1 {
+    font-size: 70px;
+    font-weight: bold;
+    margin-bottom: 5vh;
+}
+
+.cover-heading {
+    margin-top: 8vh;
+    margin-bottom: 10vh;
+}
+
+.cover-heading p {
+    font-size: 22px;
+    width: 65vw;
+}
+
+/* end cover-heading */
+
+/* webDesign */
+.webDesign {
+    background-color: #ededed;
+    margin-bottom: 5vh;
+}
+
+.webDesignImg img {
+    width: 50vw;
+}
+
+.webDesignContent {
+    margin-left: 6vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.webDesignCol2 {
+    display: flex;
+    padding-top: 7vh;
+}
+
+.webDesignBtn button {
+    background-color: #fcaf3b;
+    border: none;
+    width: 15vw;
+    height: 6vh;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.cardImg {
+    display: flex;
+}
+
+.fixedPrice img {
+    border-radius: 50%;
+}
+
+/* end webDesign */
+
+/* featuredWork */
+.featuredWork {
+    margin-top: 10vh;
+}
+.featuredWork img {
+    width: 45vw;
+}
+
+/* end featuredWork */
+/* workTogether */
+.workTogether {
+    padding: 20vh 5vw 20vh 5vw;
+    background-color: #14171c;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.workTogetherHeading h2 {
+    font-size: 46px;
+    font-weight: 600;
+}
+
+.workTogetherBtn button {
+    background-color: #fcaf3b;
+    border: none;
+    width: 14vw;
+    height: 6vh;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+/* end workTogether */
+/* copyright */
+.copyright {
+    background-color: black;
+    color: white;
+    padding-left: 5vw;
+    margin-bottom: -3vh;
+}
+
+/* end copyright */
+
+.workTogetherBtn:hover button,
+.webDesignBtn:hover button {
+    background-color: #ab641d;
+    color: white;
+}
+
+@media (max-width: 460px) {
+    .webDesignBtn button,
+    .workTogetherBtn button {
+        width: 35vw !important;
+    }
+}
+
+@media (max-width: 330px) {
+
+    .webDesignBtn button,
+    .workTogetherBtn button {
+        width: 55vw !important;
+    }
+    .cover-heading h1 {
+        font-size: 26px !important;
+    }
+}
+@media (max-width: 210px) {
+    .webDesignBtn button,
+    .workTogetherBtn button {
+        width: 75vw !important;
+    }
+}
+
+@media (max-width: 760px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    .webDesignImg img {
+        width: 75vw;
+    }
+
+    .workTogetherHeading h2 {
+        font-size: 30px;
+    }
+}
+
+@media (max-width:990px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    .cover-heading h1 {
+        font-size: 34px;
+    }
+
+    .featuredWork {
+        padding: 0vw 3vw;
+    }
+
+    .featuredWork img {
+        width: 85vw;
+    }
+
+    .webDesignContent {
+        margin-left: 1vw;
+    }
+
+    .webDesignBtn button,
+    .workTogetherBtn button {
+        width: 25vw;
+        height: 12vh;
+    }
+
+
+    .featuredWorkImg1,
+    .featuredWorkImg2 {
+        padding-top: 5vh;
+    }
+
+    .featuredWorkImg1 img,
+    .featuredWorkImg2 img {
+        padding-right: 5vw;
+    }
+
+    .review .cardPara {
+        display: flex;
+        justify-content: center;
+    }
+}
