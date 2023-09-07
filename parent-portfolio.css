@@ -1,0 +1,65 @@
+body {
+    overflow-x: hidden !important;
+    width: 100vw;
+}
+
+/* navbar */
+.nav-heading {
+    width: 52vw !important;
+}
+
+/* end navbar */
+/* cover-heading */
+.cover-heading h1 {
+    font-size: 70px;
+    font-weight: bold;
+}
+
+/* end cover-heading */
+/* portfolio-cards */
+.portfolioImg img {
+    width: 100%;
+}
+
+.portfolioDetails button {
+    background-color: #fcaf3b;
+    border: none;
+    padding: 2vh;
+    font-size: 20px;
+    font-weight: 700;
+}
+.portfolioDetails button:hover {
+    background-color: #ab641d;
+    color: white;
+}
+.greyBack {
+    background-color: #ededed;
+    padding: 10vh 0vw;
+    margin: 10vh 0vw;
+}
+/* end portfolio-cards */
+/* copyright */
+.copyright {
+    background-color: black;
+    color: white;
+    padding-left: 5vw;
+    margin-bottom: -3vh;
+}
+
+/* end copyright */
+
+@media (max-width:576px) {
+    .mar-5 {
+        margin-top: 5vh;
+    }
+    .portfolioDetails button {
+        padding: 2vh;
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 990px) {
+    .cover-heading h1 {
+        font-size: 44px;
+    }
+}
