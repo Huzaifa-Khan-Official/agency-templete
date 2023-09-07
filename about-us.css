@@ -89,6 +89,10 @@ body {
     font-weight: 700;
 }
 
+.valuesBtn:hover button {
+    background-color: #ab641d;
+    color: white;
+}
 /* end values */
 
 /* card */

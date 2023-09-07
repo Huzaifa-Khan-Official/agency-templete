@@ -1,0 +1,51 @@
+body {
+    overflow-x: hidden !important;
+    width: 100vw;
+}
+
+/* navbar */
+.nav-heading {
+    width: 52vw !important;
+}
+
+/* end navbar */
+/* cover-heading */
+.cover-heading h1 {
+    font-size: 70px;
+    font-weight: bold;
+}
+
+/* end cover-heading */
+
+/* news cards */
+.newsImg1 img {
+    width: 100%;
+}
+
+.newsImg2 img {
+    width: 100%;
+}
+
+.row a {
+    color: #fcaf3b;
+    text-decoration: none;
+}
+.row a:hover {
+    color: #ab641d;
+}
+/* end news cards */
+/* copyright */
+.copyright {
+    background-color: black;
+    color: white;
+    padding-left: 5vw;
+    margin-bottom: -3vh;
+}
+
+/* end copyright */
+
+@media (max-width: 576px) {
+    .mar-5{
+        margin-top: 5vh;
+    }
+}
