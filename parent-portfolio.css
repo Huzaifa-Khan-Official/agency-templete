@@ -14,7 +14,6 @@ body {
     font-size: 70px;
     font-weight: bold;
 }
-
 /* end cover-heading */
 /* portfolio-cards */
 .portfolioImg img {
@@ -25,8 +24,8 @@ body {
     background-color: #fcaf3b;
     border: none;
     padding: 2vh;
-    font-size: 20px;
-    font-weight: 700;
+    font-size: 16px;
+    font-weight: bold;
 }
 .portfolioDetails button:hover {
     background-color: #ab641d;

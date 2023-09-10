@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="contact.css">
+    <title>Contact Us - Agency</title>
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg ms-3">
+        <div class="container-fluid">
+            <span class="navbar-brand mb-0 h1 nav-heading ps-lg-4 ps-md-0">WEB AGENCY</span>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="./index.html">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./about-us.html">ABOUT US</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="./parent-portfolio.html" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="true" onclick="gotoPortfolio()">
+                            PORTFOLIO
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item show" href="./portfolio.html">PORTFOLIO SINGLE</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./news.html">NEWS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="./contact.html">CONTACT US</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- end navbar -->
+    <!-- cover-heading -->
+    <div class="cover-heading ms-sm-4 ms-4 mt-5 ps-md-3">
+        <h1>Get in Touch</h1>
+    </div>
+    <!-- end cover-heading -->
+    <!-- cards -->
+    <div class="cards pt-5 pb-5">
+        <div class="row p-4">
+            <div class=" col-md-4 col-sm-12 col-12 p-4">
+                <div class="call p-4">
+                    <div class="callImg">
+                        <img src="./assets/callImg.webp">
+                    </div>
+                    <div class="callContent">
+                        <h5>Call us</h5>
+                        <p>+92-3322433615 | Monday – Friday</p>
+                    </div>
+                </div>
+            </div>
+            <div class=" col-md-4 col-sm-12 col-12 p-4">
+                <div class="email p-4">
+                    <div class="emailImg">
+                        <img src="./assets/emailImg.webp">
+                    </div>
+                    <div class="emailContent">
+                        <h5>Email</h5>
+                        <p>m.huzaifakhan2004@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class=" col-md-4 col-sm-12 col-12 p-4">
+                <div class="offices p-4">
+                    <div class="officesImg">
+                        <img src="./assets/officesImg.webp">
+                    </div>
+                    <div class="officesContent">
+                        <h5>Offices</h5>
+                        <p>H B217, METROVIL1, S.I.T.E. KARACHI.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end cards -->
+    <!-- message -->
+    <div class="message p-5">
+        <div class="row">
+            <div class="col-md-6 col-sm-12 col-12">
+                <div class="messageContent">
+                    <h2>Send us a message or Come visit us</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper
+                        mattis, pulvinar dapibus leo.</p>
+                </div>
+                <div class="contactLinks">
+                    <div class="facebookLink">
+                        <i class="fa-brands fa-facebook" style="color: #ffffff;"></i>
+                    </div>
+                    <div class="twitterLink ms-2">
+                        <i class="fa-brands fa-x-twitter"></i>
+                    </div>
+                    <div class="linkedinLink ms-2">
+                        <i class="fa-brands fa-linkedin" style="color: #ffffff;"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-sm-12 col-12 pe-4">
+                <div class="messageInp">
+                    <form>
+                        <div class="nameDiv">
+                            <label>
+                                Name<span>*</span>
+                            </label>
+                            <input type="text" required class="form-control">
+                        </div>
+                        <div class="emailDiv mt-4">
+                            <label>
+                                Email<span>*</span>
+                            </label>
+                            <input type="email" required class="form-control">
+                        </div>
+                        <div class="messageDiv mt-4">
+                            <label>
+                                Message
+                            </label>
+                            <textarea class="form-control pt-3" style="height: 30vh"></textarea>
+                        </div>
+                    </form>
+                    <div class="messageBtn mt-4">
+                        <a href="#"><button>PROJECT DETAILS</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end message -->
+    <!-- copyright -->
+    <div class="copyright pb-1 pt-2 ps-4 pe-2">
+        <div class="copyrightContent">
+            <p>All Rights Reserved | Developted By Huzaifa Khan</p>
+        </div>
+    </div>
+    <!-- end copyright -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+    <script>
+        function gotoPortfolio() {
+            location.href = "./parent-portfolio.html";
+        }
+    </script>
+</body>
+
+</html>
