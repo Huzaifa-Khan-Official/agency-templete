@@ -1,0 +1,69 @@
+body {
+    overflow-x: hidden !important;
+    width: 100vw;
+}
+
+/* navbar */
+.nav-heading {
+    width: 52vw !important;
+}
+
+/* end navbar */
+/* post-cover */
+.post-cover {
+    position: relative;
+    height: 50vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bgColor {
+    padding: 60px 40px;
+    background-color: #14171c;
+    height: 50vh;
+    width: 100vw;
+    opacity: 0.4;
+    background-blend-mode: normal;
+    position: relative;
+}
+
+.container {
+    position: absolute;
+    top: 10vh;
+    left: 4vw;
+    color: white;
+}
+
+.postHeading {
+    width: 90vw;
+}
+
+.postHeading h1 {
+    font-size: 65px;
+}
+#postWriter a {
+    color: white;
+    text-decoration: none;
+    opacity: 0.9;
+}
+
+/* end post-cover */
+/* copyright */
+.copyright {
+    background-color: black;
+    color: white;
+    padding-left: 5vw;
+    margin-bottom: -3vh;
+}
+
+/* end copyright */
+
+@media (max-width: 768px) {
+    .postHeading h1 {
+        font-size: 50px;
+    }
+}
