@@ -12,7 +12,7 @@ body {
 /* post-cover */
 .post-cover {
     position: relative;
-    height: 50vh;
+    height: 70vh;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -24,7 +24,7 @@ body {
 .bgColor {
     padding: 60px 40px;
     background-color: #14171c;
-    height: 50vh;
+    height: 70vh;
     width: 100vw;
     opacity: 0.4;
     background-blend-mode: normal;
@@ -45,6 +45,7 @@ body {
 .postHeading h1 {
     font-size: 65px;
 }
+
 #postWriter a {
     color: white;
     text-decoration: none;
@@ -52,6 +53,113 @@ body {
 }
 
 /* end post-cover */
+
+/* content */
+.contentDiv {
+    margin-bottom: 25vh;
+}
+
+/* end content */
+
+/* respond */
+.respond {
+    background-color: #ededed;
+    margin-top: 20vh;
+}
+
+.respondForm {
+    display: grid;
+    grid-column-gap: 15px;
+    grid-row-gap: 10px;
+}
+
+.respndForm label {
+    display: block;
+    margin-bottom: 3vh;
+}
+
+.respndName {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.respndForm input {
+    border: none;
+    padding: 10px 12px;
+}
+
+.respndForm textarea {
+    border: none;
+    width: 97%;
+    padding: 10px 12px;
+}
+
+#checkLabel {
+    display: inline-block;
+    margin-left: 1vw;
+}
+
+.respndBtn button {
+    background-color: #fcaf3b;
+    padding: 10px 20px;
+    border: none;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+/* end respond */
+/* sidebar */
+.sidebarCol {
+    width: 25% !important;
+}
+
+.search {
+    border: 1px solid #ededed;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5vh;
+}
+
+.search button {
+    background: none;
+    padding: 6px;
+    padding-left: 0px;
+    border: 1px solid #ededed;
+    border-left: none;
+    width: 20%;
+}
+
+.search input {
+    padding: 6px;
+    padding-right: 0px;
+    border: 1px solid #ededed;
+    border-right: none;
+    width: 80%;
+}
+
+.search input[type=search] {
+    outline-offset: -22px;
+}
+
+#searchinp:focus-visible {
+    box-shadow: 0 0 5px 0 #ab641d;
+    border-right: none;
+}
+
+.recentPosts ul {
+    list-style-type: none;
+    padding: 0px;
+}
+.recentPosts ul li {
+    margin-top: 2.5vh;
+}
+
+.recentPosts ul a {
+    text-decoration: none;
+    color: black;
+}
+
+/* end sidebar */
 /* copyright */
 .copyright {
     background-color: black;
@@ -62,8 +170,20 @@ body {
 
 /* end copyright */
 
+
 @media (max-width: 768px) {
     .postHeading h1 {
         font-size: 50px;
+    }
+
+    .sidebarCol {
+        width: 100% !important;
+        margin-top: 5vh;
+    }
+}
+
+@media (min-width: 768px) {
+    .col-md-6 {
+        width: 69%;
     }
 }

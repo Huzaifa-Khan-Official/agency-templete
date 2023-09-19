@@ -6,7 +6,17 @@ body {
 .nav-heading {
     width: 52vw !important;
 }
-
+#line {
+    background-color: black;
+    /* width: 4vw; */
+    height: 0.3vh;
+    display: none;
+}
+.nav-item:hover #line{
+    transition: 1s;
+    transform: scale(1);
+    display: block;
+}
 /* end navbar */
 
 /* cover */

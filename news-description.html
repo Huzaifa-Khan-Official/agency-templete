@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="news-desc.css">
     <title>- Agency</title>
     <style>
@@ -65,9 +68,11 @@
             </div>
         </div>
     </div>
+
+
     <!-- end post-cover -->
     <!-- contentDiv -->
-    <div class="contentDiv mt-5 ms-5">
+    <div class="contentDiv mt-5 ps-5 pe-5">
         <div class="content">
             <div class="row">
                 <div class="col-md-6 col-sm-12 col-12">
@@ -116,9 +121,60 @@
                         </div>
 
                     </div>
+                    <div class="respond">
+                        <div class="respndContent p-4">
+                            <h5>Leave a Reply</h4>
+                                <p>Your email address will not be published. Required fields are marked *</p>
+                                <div class="respndForm">
+                                    <div class="respndName">
+                                        <p>
+                                            <label>Name*</label>
+                                            <input type="text">
+                                        </p>
+                                        <p class="ms-3">
+                                            <label>Email*</label>
+                                            <input type="email">
+                                        </p>
+                                        <p class="ms-3">
+                                            <label>Website</label>
+                                            <input type="text">
+                                        </p>
+                                    </div>
+                                    <p>
+                                        <label>Comment</label>
+                                        <textarea cols="45" rows="8"></textarea>
+                                    </p>
+                                    <p>
+                                        <input type="checkbox">
+                                        <label id="checkLabel">Save my name, email, and website in this browser for the
+                                            next time I comment.</label>
+                                    </p>
+                                    <div class="respndBtn mt-4">
+                                        <button>POST COMMENT</button>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-md-6 col-sm-12 col-12">
+                <div class="col-md-6 col-sm-12 col-12 sidebarCol">
+                    <div class="sidebar">
+                        <div class="search">
+                            <input type="search" placeholder="Search for..." id="searchinp">
+                            <button id="searchbtn"><i class="fa-solid fa-magnifying-glass" style="color: #9d9d9d;"></i></button>
+                        </div>
+                        <div class="recentPosts">
+                            <h5>Recent Posts</h5>
 
+                            <ul>
+                                <li><a href="#">What is the Progressive Web App (PWA) and how it works?</a></li>
+                                <li><a href="#">Knowing Your User. The importance of User Research.</a></li>
+                                <li><a href="#">Best Calligraphy Fonts for Logos</a></li>
+                                <li><a href="#">A Simple Guide to Design Thinking</a></li>
+                                <li><a href="#">Web Design Trends for 2022</a></li>
+                                <li><a href="#">5 UX Principles for Creating a Great Website</a></li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
