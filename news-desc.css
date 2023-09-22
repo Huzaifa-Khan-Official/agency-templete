@@ -4,8 +4,57 @@ body {
 }
 
 /* navbar */
+.navbar {
+    position: sticky;
+    background-color: white;
+    top: 0;
+    z-index: 1;
+}
+
 .nav-heading {
     width: 52vw !important;
+}
+
+.active #line {
+    background-color: #ab641d;
+    transition: width 0.5s;
+    margin-top: 3px;
+    height: 0.3vh;
+    display: flex;
+    width: 0vw;
+}
+
+.active #line {
+    width: 40px;
+}
+
+.active {
+    color: #ab641d !important;
+}
+
+#line {
+    background-color: #ab641d;
+    width: 0vw;
+    transition: width 0.5s;
+    height: 0.3vh;
+    display: flex;
+    margin-top: 3px;
+}
+
+.nav-item:hover #line {
+    width: 40px;
+}
+
+.nav-item:hover a {
+    color: #ab641d !important;
+}
+
+.nav-item:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown-item:active {
+    background-color: white !important;
 }
 
 /* end navbar */
@@ -105,6 +154,12 @@ body {
     border: none;
     font-weight: bold;
     font-size: 14px;
+    transition: all .5s;
+}
+
+.respndBtn button:hover {
+    background-color: #ab641d;
+    color: white;
 }
 
 /* end respond */
@@ -157,6 +212,10 @@ body {
 .recentPosts ul a {
     text-decoration: none;
     color: black;
+}
+
+.recentPosts ul a:hover {
+    color: rgb(51, 51, 51);
 }
 
 /* end sidebar */

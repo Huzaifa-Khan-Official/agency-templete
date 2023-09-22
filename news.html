@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +8,7 @@
     <link rel="stylesheet" href="news.css">
     <title>News - Agency</title>
 </head>
+
 <body>
     <!-- navbar -->
     <nav class="navbar navbar-expand-lg">
@@ -20,25 +22,34 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="./index.html">HOME</a>
+                        <a class="nav-link" aria-current="page" href="./index.html">HOME
+                            <span id="line"></span>
+                        </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./about-us.html">ABOUT US</a>
+                        <a class="nav-link" href="./about-us.html">ABOUT US
+                            <span id="line"></span>
+                        </a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="./parent-portfolio.html" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false" onclick="gotoPortfolio()">
-                            PORTFOLIO
+                        <a class="nav-link" href="./parent-portfolio.html">
+                            PORTFOLIO ▼
+                            <span id="line"></span>
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="./portfolio.html">PORTFOLIO SINGLE</a></li>
+                            <li><a class="dropdown-item" href="./portfolio.html">PORTFOLIO SINGLE
+                                </a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="./news.html">NEWS</a>
+                        <a class="nav-link active" href="./news.html">NEWS
+                            <span id="line"></span>
+                        </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./contact.html">CONTACT US</a>
+                        <a class="nav-link" href="./contact.html">CONTACT US
+                            <span id="line"></span>
+                        </a>
                     </li>
 
                 </ul>
@@ -56,90 +67,108 @@
         <div class="row mt-3">
             <div class="col-sm-6 col-12 mar-5">
                 <div class="newsImg1 mb-3">
-                    <img src="./assets/newsImg1.webp" alt="">
+                    <img src="./assets/newsImg1.webp" alt="" onclick="news(0)">
                 </div>
                 <div class="newsHeading mb-3">
-                    <h2>What is the Progressive Web App (PWA) and how it works?</h2>
+                    <h2 onclick="news(0)">What is the Progressive Web App (PWA) and how it works?</h2>
                 </div>
                 <div class="newsWriter">
-                    <p>by <a href="#">John Williams</a></p>
+                    <p>by <a href="#" onclick="news(0)">John Williams</a></p>
                 </div>
                 <div class="newsContent">
-                    <p>Introduction Readymade godard brooklyn, kogi shoreditch hashtag hella shaman kitsch man bun pinterest flexitarian. Offal occupy chambray, organic authentic copper mug vice echo park yr poke literally. Ugh coloring book fingerstache schlitz retro cronut man bun copper mug small batch… <a href="#" onclick="news(0)">Read More »</a></p>
+                    <p>Introduction Readymade godard brooklyn, kogi shoreditch hashtag hella shaman kitsch man bun
+                        pinterest flexitarian. Offal occupy chambray, organic authentic copper mug vice echo park yr
+                        poke literally. Ugh coloring book fingerstache schlitz retro cronut man bun copper mug small
+                        batch… <a href="#" onclick="news(0)">Read More »</a></p>
                 </div>
             </div>
             <div class="col-sm-6 col-12 mar-5">
                 <div class="newsImg2 mb-3">
-                    <img src="./assets/newsImg2.webp" alt="">
+                    <img src="./assets/newsImg2.webp" alt="" onclick="news(1)">
                 </div>
                 <div class="newsHeading mb-3">
-                    <h2>Knowing Your User. The importance of User Research.</h2>
+                    <h2 onclick="news(1)">Knowing Your User. The importance of User Research.</h2>
                 </div>
                 <div class="newsWriter">
-                    <p>by <a href="#">John Williams</a></p>
+                    <p>by <a href="#" onclick="news(1)">John Williams</a></p>
                 </div>
                 <div class="newsContent">
-                    <p>Introduction Readymade godard brooklyn, kogi shoreditch hashtag hella shaman kitsch man bun pinterest flexitarian. Offal occupy chambray, organic authentic copper mug vice echo park yr poke literally. Ugh coloring book fingerstache schlitz retro cronut man bun copper mug small batch… <a href="#" onclick="news(1)">Read More »</a></p>
+                    <p>Introduction Readymade godard brooklyn, kogi shoreditch hashtag hella shaman kitsch man bun
+                        pinterest flexitarian. Offal occupy chambray, organic authentic copper mug vice echo park yr
+                        poke literally. Ugh coloring book fingerstache schlitz retro cronut man bun copper mug small
+                        batch… <a href="#" onclick="news(1)">Read More »</a></p>
                 </div>
             </div>
         </div>
         <div class="row mt-3">
             <div class="col-sm-6 col-12 mar-5">
                 <div class="newsImg1 mb-3">
-                    <img src="./assets/brandingImg.webp" alt="">
+                    <img src="./assets/brandingImg.webp" alt="" onclick="news(2)">
                 </div>
                 <div class="newsHeading mb-3">
-                    <h2>Best Calligraphy Fonts for Logos</h2>
+                    <h2 onclick="news(2)">Best Calligraphy Fonts for Logos</h2>
                 </div>
                 <div class="newsWriter">
-                    <p>by <a href="#">John Williams</a></p>
+                    <p>by <a href="#" onclick="news(2)">John Williams</a></p>
                 </div>
                 <div class="newsContent">
-                    <p>Introduction Readymade godard brooklyn, kogi shoreditch hashtag hella shaman kitsch man bun pinterest flexitarian. Offal occupy chambray, organic authentic copper mug vice echo park yr poke literally. Ugh coloring book fingerstache schlitz retro cronut man bun copper mug small batch… <a href="#" onclick="news(2)">Read More »</a></p>
+                    <p>Introduction Readymade godard brooklyn, kogi shoreditch hashtag hella shaman kitsch man bun
+                        pinterest flexitarian. Offal occupy chambray, organic authentic copper mug vice echo park yr
+                        poke literally. Ugh coloring book fingerstache schlitz retro cronut man bun copper mug small
+                        batch… <a href="#" onclick="news(2)">Read More »</a></p>
                 </div>
             </div>
             <div class="col-sm-6 col-12 mar-5">
                 <div class="newsImg2 mb-3">
-                    <img src="./assets/our-storyImg.webp" alt="">
+                    <img src="./assets/our-storyImg.webp" alt="" onclick="news(3)">
                 </div>
                 <div class="newsHeading mb-3">
-                    <h2>A Simple Guide to Design Thinking</h2>
+                    <h2 onclick="news(3)">A Simple Guide to Design Thinking</h2>
                 </div>
                 <div class="newsWriter">
-                    <p>by <a href="#">John Williams</a></p>
+                    <p>by <a href="#" onclick="news(3)">John Williams</a></p>
                 </div>
                 <div class="newsContent">
-                    <p>Introduction Readymade godard brooklyn, kogi shoreditch hashtag hella shaman kitsch man bun pinterest flexitarian. Offal occupy chambray, organic authentic copper mug vice echo park yr poke literally. Ugh coloring book fingerstache schlitz retro cronut man bun copper mug small batch… <a href="#" onclick="news(3)">Read More »</a></p>
+                    <p>Introduction Readymade godard brooklyn, kogi shoreditch hashtag hella shaman kitsch man bun
+                        pinterest flexitarian. Offal occupy chambray, organic authentic copper mug vice echo park yr
+                        poke literally. Ugh coloring book fingerstache schlitz retro cronut man bun copper mug small
+                        batch… <a href="#" onclick="news(3)">Read More »</a></p>
                 </div>
             </div>
         </div>
         <div class="row mt-3">
             <div class="col-sm-6 col-12 mar-5">
                 <div class="newsImg1 mb-3">
-                    <img src="./assets/webDesignImg.webp" alt="">
+                    <img src="./assets/webDesignImg.webp" alt="" onclick="news(4)">
                 </div>
                 <div class="newsHeading mb-3">
-                    <h2>Web Design Trends for 2022</h2>
+                    <h2 onclick="news(4)">Web Design Trends for 2022</h2>
                 </div>
                 <div class="newsWriter">
-                    <p>by <a href="#">John Williams</a></p>
+                    <p>by <a href="#" onclick="news(4)">John Williams</a></p>
                 </div>
                 <div class="newsContent">
-                    <p>Introduction Readymade godard brooklyn, kogi shoreditch hashtag hella shaman kitsch man bun pinterest flexitarian. Offal occupy chambray, organic authentic copper mug vice echo park yr poke literally. Ugh coloring book fingerstache schlitz retro cronut man bun copper mug small batch… <a href="#" onclick="news(4)">Read More »</a></p>
+                    <p>Introduction Readymade godard brooklyn, kogi shoreditch hashtag hella shaman kitsch man bun
+                        pinterest flexitarian. Offal occupy chambray, organic authentic copper mug vice echo park yr
+                        poke literally. Ugh coloring book fingerstache schlitz retro cronut man bun copper mug small
+                        batch… <a href="#" onclick="news(4)">Read More »</a></p>
                 </div>
             </div>
             <div class="col-sm-6 col-12 mar-5">
                 <div class="newsImg2 mb-3">
-                    <img src="./assets/featuredWorkImg1.webp" alt="">
+                    <img src="./assets/featuredWorkImg1.webp" alt="" onclick="news(5)">
                 </div>
                 <div class="newsHeading mb-3">
-                    <h2>5 UX Principles for Creating a Great Website</h2>
+                    <h2 onclick="news(5)">5 UX Principles for Creating a Great Website</h2>
                 </div>
                 <div class="newsWriter">
-                    <p>by <a href="#">Rodica1</a> / <a href="#">Comment</a></p>
+                    <p>by <a href=""  onclick="news(5)">Rodica1</a> / <a href=""  onclick="news(5)">Comment</a></p>
                 </div>
                 <div class="newsContent">
-                    <p>Introduction Readymade godard brooklyn, kogi shoreditch hashtag hella shaman kitsch man bun pinterest flexitarian. Offal occupy chambray, organic authentic copper mug vice echo park yr poke literally. Ugh coloring book fingerstache schlitz retro cronut man bun copper mug small batch… <a href="#" onclick="news(5)">Read More »</a></p>
+                    <p>Introduction Readymade godard brooklyn, kogi shoreditch hashtag hella shaman kitsch man bun
+                        pinterest flexitarian. Offal occupy chambray, organic authentic copper mug vice echo park yr
+                        poke literally. Ugh coloring book fingerstache schlitz retro cronut man bun copper mug small
+                        batch… <a href="#" onclick="news(5)">Read More »</a></p>
                 </div>
             </div>
         </div>
@@ -154,10 +183,6 @@
     <!-- end copyright -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
     <script src="news.js"></script>
-    <script>
-        function gotoPortfolio() {
-            location.href = "./parent-portfolio.html";
-        }
-    </script>
 </body>
+
 </html>

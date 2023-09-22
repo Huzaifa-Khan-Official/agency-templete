@@ -3,10 +3,59 @@ body {
     width: 100vw;
 }
 
+.dropdown-item.active, .dropdown-item:active {
+    background-color: white !important;
+}
+
 
 /* navbar */
+.navbar {
+    position: sticky;
+    background-color: white;
+    top: 0;
+    z-index: 1;
+}
+
 .nav-heading {
     width: 52vw !important;
+}
+
+.active #line {
+    background-color: #ab641d;
+    transition: width 0.5s;
+    margin-top: 3px;
+    height: 0.3vh;
+    display: flex;
+    width: 0vw;
+}
+
+.active #line {
+    width: 40px;
+}
+
+.active {
+    color: #ab641d !important;
+}
+
+#line {
+    background-color: #ab641d;
+    width: 0vw;
+    transition: width 0.5s;
+    height: 0.3vh;
+    display: flex;
+    margin-top: 3px;
+}
+
+.nav-item:hover #line {
+    width: 40px;
+}
+
+.nav-item:hover a {
+    color: #ab641d !important;
+}
+
+.nav-item:hover .dropdown-menu {
+    display: block;
 }
 
 /* end navbar */
@@ -57,6 +106,7 @@ body {
     height: 6vh;
     font-size: 16px;
     font-weight: 700;
+    transition: all .5s;
 }
 
 .cardImg {
@@ -73,6 +123,7 @@ body {
 .featuredWork {
     margin-top: 10vh;
 }
+
 .featuredWork img {
     width: 45vw;
 }
@@ -101,6 +152,7 @@ body {
     height: 6vh;
     font-size: 16px;
     font-weight: 700;
+    transition: all .5s;
 }
 
 /* end workTogether */
@@ -121,6 +173,7 @@ body {
 }
 
 @media (max-width: 460px) {
+
     .webDesignBtn button,
     .workTogetherBtn button {
         width: 35vw !important;
@@ -133,11 +186,14 @@ body {
     .workTogetherBtn button {
         width: 55vw !important;
     }
+
     .cover-heading h1 {
         font-size: 26px !important;
     }
 }
+
 @media (max-width: 210px) {
+
     .webDesignBtn button,
     .workTogetherBtn button {
         width: 75vw !important;

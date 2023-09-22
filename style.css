@@ -3,18 +3,49 @@ body {
 }
 
 /* navbar */
+
+.navbar {
+    position: sticky;
+    background-color: white;
+    top: 0;
+    z-index: 1;
+}
 .nav-heading {
     width: 52vw !important;
 }
-#line {
-    background-color: black;
-    /* width: 4vw; */
+.active  #line {
+    background-color: #ab641d;
+    transition: width 0.5s;
+    margin-top: 3px;
     height: 0.3vh;
-    display: none;
+    display: flex;
+    width: 0vw;
+}
+
+.active #line {
+    width: 40px;
+}
+
+.active {
+    color: #ab641d !important;
+}
+#line {
+    background-color: #ab641d;
+    width: 0vw;
+    transition: width 0.5s;
+    height: 0.3vh;
+    display: flex;
+    margin-top: 3px;
 }
 .nav-item:hover #line{
-    transition: 1s;
-    transform: scale(1);
+    width: 40px;
+}
+
+.nav-item:hover a {
+    color: #ab641d !important;
+}
+
+.nav-item:hover .dropdown-menu {
     display: block;
 }
 /* end navbar */
@@ -70,36 +101,53 @@ body {
 }
 
 .learn-more {
-    width: 13vw;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 6vh;
-    background-color: #fcaf3b;
 }
 
-.learn-more:hover {
+.learn-more button {
+    background-color: transparent;
+    border: none;
+    font-weight: bold;
+    width: 13vw;
+    background-color: #fcaf3b;
+    transition: all .5s;
+    padding: 1vw;
+}
+
+.learn-more:hover button {
     background-color: #ab641d;
 }
 
-.learn-more:hover a {
+.learn-more:hover a button {
     color: white;
 }
 
+
 .hire-us {
-    width: 13vw;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 6vh;
-    border: 2px solid #14171c;
 }
 
-.hire-us:hover {
+.hire-us button {
+    background-color: transparent;
+    border: none;
+    font-weight: bold;
+    width: 13vw;
+    padding: 0.8vw;
+    border: 2px solid #14171c;
+    transition: all .5s;
+}
+
+.hire-us:hover  button{
     background-color: #14171c;
 }
 
-.hire-us:hover a {
+.hire-us:hover a button {
     color: white;
 }
 
@@ -151,6 +199,7 @@ body {
     height: 6vh;
     font-size: 16px;
     font-weight: 700;
+    transition: all .5s;
 }
 
 /* end webDesign */
@@ -190,6 +239,7 @@ body {
     height: 6vh;
     font-size: 16px;
     font-weight: 700;
+    transition: all .5s;
 }
 
 /* end branding */
@@ -227,6 +277,7 @@ body {
     height: 6vh;
     font-size: 16px;
     font-weight: 700;
+    transition: all .5s;
 }
 
 /* end values */
@@ -273,6 +324,7 @@ body {
     height: 6vh;
     font-size: 16px;
     font-weight: 700;
+    transition: all .5s;
 }
 
 /* end workTogether */
@@ -287,10 +339,10 @@ body {
 
 /* end copyright */
 
-.workTogetherBtn:hover button,
-.valuesBtn:hover button,
-.brandingBtn:hover button,
-.webDesignBtn:hover button {
+.workTogetherBtn button:hover,
+.valuesBtn button:hover,
+.brandingBtn button:hover,
+.webDesignBtn button:hover {
     background-color: #ab641d;
     color: white;
 }
