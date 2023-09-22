@@ -111,10 +111,9 @@ body {
     background-color: transparent;
     border: none;
     font-weight: bold;
-    width: 13vw;
     background-color: #fcaf3b;
     transition: all .5s;
-    padding: 1vw;
+    padding: 12px;
 }
 
 .learn-more:hover button {
@@ -137,8 +136,7 @@ body {
     background-color: transparent;
     border: none;
     font-weight: bold;
-    width: 13vw;
-    padding: 0.8vw;
+    padding: 12px;
     border: 2px solid #14171c;
     transition: all .5s;
 }
@@ -378,6 +376,12 @@ body {
     }
     .cover-content {
         top: 6px !important;
+    }
+}
+
+@media (max-width: 450px) {
+    .learn-more button {
+        width: 150px;
     }
 }
 @media (max-width: 210px) {
