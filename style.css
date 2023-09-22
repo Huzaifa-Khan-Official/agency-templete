@@ -360,9 +360,6 @@ body {
     .hire-us {
         margin-top: 4vh;
     }
-    .learn-more, .hire-us {
-        width: 40vw !important;
-    }
 }
 @media (max-width: 330px) {
     .valuesBtn button,
@@ -379,11 +376,6 @@ body {
     }
 }
 
-@media (max-width: 450px) {
-    .learn-more button {
-        width: 150px;
-    }
-}
 @media (max-width: 210px) {
     .valuesBtn button,
     .brandingBtn button,
@@ -392,7 +384,11 @@ body {
         width: 75vw !important;
     }
     .learn-more, .hire-us {
-        width: 68vw !important;
+        width: 180px !important;
+    }
+
+    .cover-heading h1 {
+        font-size: 18px !important;
     }
 }
 
@@ -423,14 +419,6 @@ body {
 
     .cover-para {
         width: 70vw;
-    }
-
-    .learn-more {
-        width: 28vw;
-    }
-
-    .hire-us {
-        width: 28vw;
     }
 
     .featuredWork img {
